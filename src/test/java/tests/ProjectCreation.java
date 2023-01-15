@@ -49,7 +49,7 @@ public class ProjectCreation {
 			wb.write(fo);
 			wb.close();
 			
-			System.out.println("Writting created ProjectID in excel " +projectID);
+			System.out.println("Writting created ProjectID in excel==> " +projectID);
 
 		}catch(IOException io) {
 			io.printStackTrace();
