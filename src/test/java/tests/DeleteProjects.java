@@ -20,7 +20,8 @@ public class DeleteProjects {
 			XSSFSheet sheet = wb.getSheetAt(0);
 			wb.close();
 			String data = sheet.getRow(0).getCell(0).getStringCellValue();
-			System.out.println("Project to be deleted is ==> " +data);		
+			System.out.println("Project to be deleted is ==> " +data);
+			//Changes for Poll SCM
 		}catch(IOException io) {
 			io.printStackTrace();
 		}
